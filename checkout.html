@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>preloved bookstore</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: Ink free, Bookman old style, Ink free;
+}
+
+/* Style the header */
+.header {
+  background-color: #F0FFF0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 5px 5px black;
+}
+
+.coupon {
+  border: 5px dotted #bbb;
+  width: 50%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+
+/* Style the footer */
+.footer {
+  background-color:  #F5F5F5;
+  padding: 5px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2><b>PRELOVED BOOKSTORE | <img src="img/logo.png" float="right" class="animate__animated animate__bounceIn"></</b></h2>
+
+<center>
+<img src="gif/Shop-Now.gif" width="500" height="600"> 
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="checkoutdone.html">
+
+            <h3>Billing Address</h3>
+            <p style="font-family:Bookman Old Style"><label for="fname"><i class="fa fa-user"></i> Full Name</label></p>
+            <input type="text" id="fname" name="firstname" placeholder="Full Name"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="email"><i class="fa fa-envelope"></i> Email</label></p>
+            <input type="text" id="email" name="email" placeholder="email@example.com"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="adr"><i class="fa fa-address-card-o"></i> Address</label></p>
+            <input type="text" id="adr" name="address" placeholder="Address"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="city"><i class="fa fa-institution"></i> City</label></p>
+            <input type="text" id="city" name="city" placeholder="City"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="state">State</label></p>
+                <input type="text" id="state" name="state" placeholder="State"><br>
+<br>
+             <p style="font-family:Bookman Old Style"><label for="zip">Zip</label></p>
+                <input type="text" id="zip" name="zip" placeholder="Zip-Example:31200"><br>
+<br>
+
+             <p style="font-family:Bookman Old Style"><label for="order">Order List</label></p>
+                <input type="text" id="order" name="order"" placeholder="1.Book Title 2.Book Title" width="100" height="20"><br>
+<br>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <p style="font-family:Bookman Old Style"><label for="fname">Accepted Cards</label></p>
+<br>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+            </div>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="cname">Name on Card</label></p>
+            <input type="text" id="cname" name="cardname" placeholder="Card Name"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="ccnum">Credit card number</label></p>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number"><br>
+<br>
+            <p style="font-family:Bookman Old Style"><label for="expmonth">Exp Month</label></p>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Expired Month"><br>
+<br>
+             <p style="font-family:Bookman Old Style"><label for="expyear">Exp Year</label></p>
+                <input type="text" id="expyear" name="expyear" placeholder="Expire Year"><br>
+<br>
+             <p style="font-family:Bookman Old Style"><label for="cvv">CVV</label></p>
+                <input type="text" id="cvv" name="cvv" placeholder="Example:699"><br>
+<br>
+             <p style="font-family:Bookman Old Style"><label for="total">Total</label></p>
+                <input type="text" id="total" name="total"" placeholder="RM0.00"><br>
+<br>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label><br>
+<br>
+        <input type="submit" value="Continue to checkout" class="btn"><br>
+      </form>
+    </div>
+  </div>
+
+</center>
+
+<div class="coupon">
+  <div class="container">
+  </div>
+  <img src="img/coupon.jpg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>15% OFF YOUR PURCHASE</b></h2> 
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">IMD311</span></p>
+    <p class="expire">Expires: July 03, 2020</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p><font size="5">This website is develop for IMD311 (Introduction To Web Content Management And Design). Any information or materials are used for educational purpose only</font></p>
+</div>
+
+</body>
+</html>
