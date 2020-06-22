@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>preloved bookstore</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: Ink free, Bookman old style, Ink free;
+}
+
+/* Style the header */
+.header {
+  background-color: #F0FFF0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/*Style*/
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ADD8E6;
+  color: black;
+}
+
+/*Style*/
+* {box-sizing: border-box}
+body {font-family: Bookman Old Style; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+  background-color: #E6E6FA;
+  box-shadow: 5px 5px black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color:  #F5F5F5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2><b>PRELOVED BOOKSTORE | <img src="img/logo.png" float="right" class="animate__animated animate__bounceIn"></</b></h2>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form 
+<br>
+<br>
+
+</div>
+<div class="topnav">
+  <a href="rel.html"><font face="bookman old style" font size="5" > | Religion | </font></a>
+  <a href="edu.html"><font face="bookman old style" font size="5"> | Education | </font></a>
+  <a href="eng.html"><font face="bookman old style" font size="5"> | English romance | </font></a>
+  <a href="mal.html"><font face="bookman old style" font size="5"> | Malays romance | </font></a>
+  <a href="thr.html"><font face="bookman old style" font size="5"> | Thriller | </font></a>
+  <a href="membership.html"><font face="bookman old style" font size="5"> | Membership | </font></a>
+</div>
+<br>
+<br>
+
+<h3 align="center"><u><font size="100"><marquee behavior="alternate">Welcome To Our Preloved Bookstore</marquee></font></u></h3>
+<br>
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/sl1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/sl2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/sl3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+
+<div class="row">
+  <div class="column" style="background-color:#E6E6FA;">
+      <h4><font size="5">About US</font></h4>
+      <p><font face="bookman old style" font size="5">This website is build for resell preloved books.</font></p>
+  </div>
+  <div class="column" style="background-color:#D3D3D3;">
+      <h5><font size="5">Our Objective</font></h5>
+      <p><font face="bookman old style" font size="5">Help user to find preloved books they need.</font></p>
+  </div>
+  <div class="column" style="background-color:#E6E6FA;">
+      <h6><font size="5">Our Mission</font></h6>
+      <p><font face="bookman old style" font size="5">To resell the books and exchange knowledge with others.</font></p>
+  </div>
+</div>
+
+<div class="footer">
+  <p><font size="5">This website is develop for IMD311 (Introduction To Web Content Management And Design). Any information or materials are used for educational purpose only </font></p>
+</div>
+
+<embed src="/music/del.mp3" width="180" height="90" loop="false" autostart="false">
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>religion genre</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: Ink free, Bookman old style;
+}
+
+body {
+   margin: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #F0FFF0;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: black;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  background:#DCDCDC;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 45.5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #E6E6FA;
+  padding: 52px;
+}
+
+div.gallery {
+  margin: 24px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 300px;
+  height: 300px
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 80%;
+  object-fit:cover;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #F5F5F5;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1><b><font face="ink free">PRELOVED BOOKSTORE | <img src="img/logo.png" float="right" class="animate__animated animate__bounceIn"></font></b></h1>
+</header>
+
+<section>
+  <nav>
+    <h1 class="animate__animated animate__slideInDown">Categories</h1>
+    <ul>
+      <li class="animate__animated animate__slideInDown"><a href="edu.html"><font face="bookman old style" color="black">Education</font></a></li>
+      <li class="animate__animated animate__slideInDown"><a href="eng.html"><font face="bookman old style" color="black">English romance</font></a></li>
+      <li class="animate__animated animate__slideInDown"><a href="mal.html"><font face="bookman old style" color="black">Malays romance</font></a></li>    
+      <li class="animate__animated animate__slideInDown"><a href="thr.html"><font face="bookman old style" color="black">Thriller</font></a></li>
+<br>
+      <li class="animate__animated animate__slideInDown"><button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+    </ul>
+  </nav>
+
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+  <article>
+    <h1 class="animate__animated animate__pulse" align="center"><b><u><font face="ink free" size="50">RELIGION</font></u></b></h1>
+
+<div class="gallery">
+  <a target="_blank" href="img/nasihat-min.jpg">
+    <img src="img/nasihat-min.jpg" alt="Nasihat" width="300" height="480">
+  </a>
+  <div class="desc"><a href="nas.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/penawar-min.jpg">
+    <img src="img/penawar-min.jpg" alt="Penawar" width="300" height="480">
+  </a>
+  <div class="desc"><a href="penawar.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/perang-min.jpg">
+    <img src="img/perang-min.jpg" alt="Perang" width="300" height="480">
+  </a>
+  <div class="desc"><a href="perang.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/khandaq-min.jpg">
+    <img src="img/khandaq-min.jpg" alt="Khandaq" width="300" height="480">
+  </a>
+  <div class="desc"><a href="khandaq.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/yakjuj-min.jpg">
+    <img src="img/yakjuj-min.jpg" alt="Yakjuj&Makjuj" width="300" height="480">
+  </a>
+  <div class="desc"><a href="yakjuj.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/100-min.jpg">
+    <img src="img/100-min.jpg" alt="100 Pesanan" width="100" height="100">
+  </a>
+  <div class="desc"><a href="pesanan.html"><font face="bookman old style" color="black">See details</font></div>
+</div>
+
+  </article>
+</section>
+<br>
+
+<div class="footer">
+  <p align="center">This website is develop for IMD311 (Introduction To Web Content Management And Design). Any information or materials are used for educational purpose only</p>
+</div>
+
+</body>
+</html>
